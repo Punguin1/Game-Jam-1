@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Weapon.gd" type="Script" id=1]
+
+[node name="Weapon" type="Node2D"]
+scale = Vector2( 0.689977, 4.76518 )
+script = ExtResource( 1 )
+
+[node name="BulletPoint" type="Node2D" parent="."]
+position = Vector2( 74, 0 )
+
+[node name="Line2D" type="Line2D" parent="."]
+position = Vector2( -0.287582, 0.0416406 )
+scale = Vector2( 1.44932, 0.209856 )
+points = PoolVector2Array( 0.197639, -0.191338, 77.9803, 0.00708771 )
